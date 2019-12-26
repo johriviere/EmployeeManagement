@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191222124659_InitialMigration.cs" />
+    <Compile Remove="Migrations\20191222124659_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191223152235_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20191223152235_AddPhotoPathColumn.Designer.cs" />
+    <Compile Remove="Migrations\20191223153036_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20191223153036_AddPhotoPathColumn.Designer.cs" />
+    <Compile Remove="Migrations\20191223155629_AddSomeProperty.cs" />
+    <Compile Remove="Migrations\20191223155629_AddSomeProperty.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+</Project>
