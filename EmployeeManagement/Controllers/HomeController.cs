@@ -25,6 +25,7 @@ namespace EmployeeManagement.Controllers
 
         public IActionResult Details(int? id)
         {
+            throw new Exception("Error in Details view");
             var employee = _employeeRepository.GetEmployee(id.Value);
             if (employee == null)
             {

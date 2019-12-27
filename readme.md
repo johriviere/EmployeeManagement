@@ -10,3 +10,6 @@
 
 _UseStatusCodePagesWithReExecute_ est à privilégier. Cette méthode implémente le comportement correct.  
 Dans l'exemple, elle retourne un code HTTP 404 (not found) et l'URL dans le navigateur ne change pas.
+
+## [060. Global exception handling in asp net core mvc](https://www.youtube.com/watch?v=jeBttUIqpuc)
+* https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1#exception-handler-page
