@@ -19,12 +19,11 @@ namespace EmployeeManagement.Controllers
 
         public IActionResult Index()
         {
-            var ttt = Guid.NewGuid().ToString();
             var model = _employeeRepository.GetAllEmployees();
             return View(model);
         }
 
-        public ViewResult Details(int? id)
+        public IActionResult Details(int? id)
         {
             var employee = _employeeRepository.GetEmployee(id.Value);
             if (employee == null)
