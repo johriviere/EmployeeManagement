@@ -18,3 +18,6 @@ Dans l'exemple, elle retourne un code HTTP 404 (not found) et l'URL dans le navi
 Pour désactiver les logs du process dans la fenêtre 'Output' de Visual Studio :  
 Tools > Options > Debugging > Output Window > Uncheck all from 'Exception Messages' to 'Thread Exit'
 * https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1
+
+## [062. Logging exceptions in ASP NET Core](https://www.youtube.com/watch?v=LhpO2sgxqfw&list=PL6n9fhu94yhVkdrusLaQsfERmL_Jh4XmU&index=62)
+
