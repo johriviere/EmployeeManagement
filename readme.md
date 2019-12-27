@@ -13,3 +13,8 @@ Dans l'exemple, elle retourne un code HTTP 404 (not found) et l'URL dans le navi
 
 ## [060. Global exception handling in asp net core mvc](https://www.youtube.com/watch?v=jeBttUIqpuc)
 * https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1#exception-handler-page
+
+## [061. Logging in ASP NET Core](https://www.youtube.com/watch?v=WyAJe6lA-bY)
+Pour désactiver les logs du process dans la fenêtre 'Output' de Visual Studio :  
+Tools > Options > Debugging > Output Window > Uncheck all from 'Exception Messages' to 'Thread Exit'
+* https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1
